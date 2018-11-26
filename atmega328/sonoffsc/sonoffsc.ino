@@ -44,8 +44,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DHT_PIN                 6
 #ifndef DHT_TYPE
 // Uncomment the sensor type that you have (comment the other if applicable)
-//#define DHT_TYPE                DHT11
-#define DHT_TYPE                DHT22
+#define DHT_TYPE                DHT11
+// #define DHT_TYPE                DHT22
 #endif
 #define DHT_EXPIRES             60000
 
