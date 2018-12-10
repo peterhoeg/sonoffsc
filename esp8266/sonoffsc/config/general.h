@@ -442,7 +442,9 @@ PROGMEM const char* const custom_reset_string[] = {
 // This is default value for the alexaEnabled setting that defines whether
 // this device should be discoberable and respond to Alexa commands.
 // Both ALEXA_SUPPORT and alexaEnabled should be 1 for Alexa support to work.
+#ifndef ALEXA_ENABLED
 #define ALEXA_ENABLED           1
+#endif
 
 // -----------------------------------------------------------------------------
 // COMMS
